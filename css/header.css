@@ -1,0 +1,99 @@
+/* 헤더바 */
+header img {
+  width: 25px;
+  height: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.header-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar__img {
+  padding: 0 13px;
+}
+
+.header-bar__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar__name-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#header-bar__tem {
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 13px;
+  padding: 2px 2px;
+  margin-left: 5px;
+}
+
+.header-bar__time {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 4px;
+}
+
+.header-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar__icons img {
+  padding-right: 10px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* 헤더 인포 */
+.header-info {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.header-info__img {
+  padding: 0 13px;
+}
+
+.header-info__img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.header-info__list {
+  font-size: 15px;
+}
+
+.header-info__list-info {
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.header-info__list-price {
+  font-weight: bold;
+}
