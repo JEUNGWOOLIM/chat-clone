@@ -42,3 +42,7 @@ footer img {
   border: 0;
   cursor: pointer;
 }
+
+.footer-submit img:hover {
+  transform: scale(1.5);
+}
