@@ -1,0 +1,94 @@
+main {
+  padding: 12px;
+}
+
+.chat-me {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-me__time {
+  padding-top: 45px;
+  padding-right: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.chat-me__talk {
+  background-color: rgb(253, 126, 53);
+  padding: 8px 15px;
+  border-radius: 17px 0px 17px 17px;
+  font-size: 17px;
+  color: white;
+  line-height: 23px;
+}
+
+.chat-you {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-you__icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 3px;
+}
+
+.chat-you__talk {
+  background-color: rgb(235, 236, 240);
+  padding: 8px 15px;
+  border-radius: 0px 17px 17px 17px;
+  font-size: 17px;
+}
+
+.chat-you__time {
+  padding-top: 17px;
+  padding-left: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.chat-info {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+
+.chat-info__date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.chat-info__date-pr {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.chat-info__date-icon {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.chat-you__set {
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.chat-alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
